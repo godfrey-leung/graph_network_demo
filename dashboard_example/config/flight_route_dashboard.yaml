@@ -1,0 +1,18 @@
+data_local_path:
+  airports: 'open_source_data/flight_routes/airports.csv'
+  airlines: 'open_source_data/flight_routes/airlines.csv'
+  routes: 'open_source_data/flight_routes/routes.csv'
+
+credentials:
+  usernames:
+    dummy_user:
+      email:
+      name: dummy_user
+      password: flight_route_demo@1234  # Local test only
+cookie:
+  expiry_days: 30
+  key: scalpel_surgery # local test only
+  name: random_cookie_name
+preauthorized:
+  emails:
+
